@@ -1,0 +1,51 @@
+.line {
+    height: 6px;
+    width: 200px;
+    background-color: black;
+    margin: 8px auto;
+}
+body {
+ text-align:center;
+background: linear-gradient(#b134eb 0%, #ebb134 100%);
+   
+}
+h1{
+  font-size:50px;
+   color:green;
+     font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size:30px;
+  color:purple;
+}
+img{
+  height:400px;
+  margin-top: 100px;
+}
+.links {
+    float: left;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+    margin-left: 5px;
+font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: chartreuse;
+}
+
